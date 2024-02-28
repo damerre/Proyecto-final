@@ -1,18 +1,63 @@
-/* Error: Expected expression.
- *   ,
- * 3 | $font-titulo: 
- *   |               ^
- *   '
- *   scss/base/_variables.scss 3:15  @import
- *   scss/style.scss 2:9             root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a   \2577 \a 3 \2502  $font-titulo: \a   \2502                ^\a   \2575 \a   scss/base/_variables.scss 3:15  @import\a   scss/style.scss 2:9             root stylesheet";
+@charset "UTF-8";
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
 }
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #661691;
+  margin: 5px 0;
+}
+
+.menu-toggle {
+  display: none; /* Oculta el menú hamburguesa en pantallas más grandes */
+  cursor: pointer;
+}
+
+.logo img {
+  max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+  position: relative;
+  left: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #661691;
+  font-weight: bold;
+  font-family: "mukta-textos";
+}
+
+body {
+  background: url("../../img/fondo.png") center/cover no-repeat;
+}
+
+/* FAMILIAS TIPOGRÁFICAS */
+/* Títulos */
+@font-face {
+  font-family: "kopi-titulos";
+  src: url("../../font/kopi_senja_sans/Kopi-Senja-Sans.otf") format("opentype");
+}
+/* Textos y párrafos */
+@font-face {
+  font-family: "mukta-textos";
+  src: url("../../font/mukta/Mukta-Medium.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=style.css.map */
