@@ -1,3 +1,49 @@
+@charset "UTF-8";
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #661691;
+  margin: 5px 0;
+}
+
+.menu-toggle {
+  display: none; /* Oculta el menú hamburguesa en pantallas más grandes */
+  cursor: pointer;
+}
+
+.logo img {
+  max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+  position: relative;
+  left: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #661691;
+  font-weight: bold;
+}
+
+body {
+  background: url("../../img/fondo.png") center/cover no-repeat;
+}
 
 /*# sourceMappingURL=style.css.map */
