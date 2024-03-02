@@ -102,8 +102,9 @@ body {
 
 .prueba {
   background-color: white;
-  display: flex;
+  display: flexbox;
   justify-content: center;
+  max-width: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */
