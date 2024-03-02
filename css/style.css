@@ -44,6 +44,8 @@
   font-family: "mukta-textos";
 }
 
+/*Colores*/
+/*Fuentes*/
 body {
   background: url("../../img/fondo.png") center/cover no-repeat;
 }
@@ -58,6 +60,50 @@ body {
 @font-face {
   font-family: "mukta-textos";
   src: url("../../font/mukta/Mukta-Medium.ttf") format("truetype");
+}
+.card {
+  /*FONDO*/
+  background-color: rgba(255, 255, 255, 0.45); /* Fondo blanco con opacidad 0.8 */
+  padding: 20px; /* Ajusta el relleno según tus necesidades */
+  border-radius: 10px; /* Ajusta el radio de borde según tus necesidades */
+  /* Otros estilos de la tarjeta */
+  /*TEXTOS*/
+  font-family: "mukta-textos";
+  /*flexbox*/
+  display: flex;
+  justify-content: center;
+  /*tamaño*/
+  max-width: 1100px;
+  margin-top: 60px;
+}
+
+.card .textocard {
+  display: flex;
+  text-align: center;
+  width: 500;
+  flex-direction: column;
+}
+.card .textocard .titcard {
+  display: flex;
+  margin-top: 60px;
+  font-family: "mukta-textos";
+}
+.card .textocard .textcard {
+  display: flex;
+  text-align: start;
+}
+.card .cardimg {
+  width: 1300px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  background-color: white;
+}
+
+.prueba {
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

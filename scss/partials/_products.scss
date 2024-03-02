@@ -1,0 +1,45 @@
+.card{
+    @extend %cards;
+
+
+
+    .textocard{
+        display: flex;
+
+        text-align:center;
+        width: 500;
+        flex-direction: column;
+
+        .titcard{
+            display: flex;
+            margin-top: 60px;
+            font-family: 'mukta-textos';
+           
+
+
+        }
+        .textcard{
+            display: flex;
+            text-align: start;
+        }
+
+    }
+
+    .cardimg{
+        width:1300px;
+        height: 400px;
+        padding: 20px;
+        display: flex;
+        background-color: white;
+
+
+        
+    }
+    
+}
+
+.prueba{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
