@@ -61,7 +61,7 @@ body {
   font-family: "mukta-textos";
   src: url("../../font/mukta/Mukta-Medium.ttf") format("truetype");
 }
-.card {
+.estesi .card {
   /*FONDO*/
   background-color: rgba(255, 255, 255, 0.45); /* Fondo blanco con opacidad 0.8 */
   padding: 20px; /* Ajusta el relleno según tus necesidades */
@@ -77,22 +77,27 @@ body {
   margin-top: 60px;
 }
 
-.card .textocard {
+.estesi {
+  display: flex;
+  justify-content: center;
+}
+.estesi .card .textocard {
   display: flex;
   text-align: center;
   width: 500;
   flex-direction: column;
+  margin-top: 10%;
 }
-.card .textocard .titcard {
+.estesi .card .textocard .titcard {
   display: flex;
   margin-top: 60px;
   font-family: "mukta-textos";
 }
-.card .textocard .textcard {
+.estesi .card .textocard .textcard {
   display: flex;
   text-align: start;
 }
-.card .cardimg {
+.estesi .card .cardimg {
   width: 1300px;
   height: 400px;
   padding: 20px;
@@ -105,6 +110,32 @@ body {
   display: flexbox;
   justify-content: center;
   max-width: 600px;
+}
+
+.loquepinte {
+  display: flex;
+  justify-content: center;
+}
+.loquepinte .tarjeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+.loquepinte .tarjeta h2 {
+  text-align: center;
+  font-size: 14px;
+}
+.loquepinte .tarjeta p {
+  text-align: center;
+  font-size: 10px;
+}
+.loquepinte .tarjeta .carrusel {
+  width: 1300px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
