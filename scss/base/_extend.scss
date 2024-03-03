@@ -1,19 +1,19 @@
 %cards { 
 
     /*FONDO*/
-    background-color: rgba(255, 255, 255, 0.45); /* Fondo blanco con opacidad 0.8 */
+    background-color: rgba(255, 255, 255, 0.20); /* Fondo blanco con opacidad 0.8 */
   padding: 20px; /* Ajusta el relleno según tus necesidades */
   border-radius: 10px; /* Ajusta el radio de borde según tus necesidades */
   /* Otros estilos de la tarjeta */
 
       /*TEXTOS*/
-   font-family: 'mukta-textos';
+ 
    /*flexbox*/
    display: flex;
     justify-content: center;
   
   /*tamaño*/
-  max-width: 1100px;
+  max-width: 80%;
   margin-top: 60px;
 
 }

@@ -2,12 +2,21 @@
 
 /* Títulos */
 @font-face {
-  font-family: 'kopi-titulos';
-  src: url('../../font/kopi_senja_sans/Kopi-Senja-Sans.otf') format('opentype');
+  font-family: 'kopi';
+  src: url(/font/kopi_senja_sans/Kopi-Senja-Sans.otf);
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Textos y párrafos */
 @font-face {
   font-family: 'mukta-textos';
   src: url('../../font/mukta/Mukta-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'prequel';
+  src: url(/font/prequel/PrequelDemo-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
