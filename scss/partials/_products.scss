@@ -2,10 +2,16 @@
     display: flex;
     justify-content: center;
 
+
     .card{
         @extend %cards;
         flex-direction: row;
         justify-content: space-around;
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.30) ;
+            box-shadow:  0 0 20px rgba(0, 0, 0, 0.30) ;
+
+        }
     
         .textocard{
             display: flex;
@@ -20,9 +26,10 @@
                 margin-top: 60px;
                 font-family: 'prequel';
                 font-weight: normal;
-                color: $color-secundario;
-                font-size: $fuente-titular;
+                color: #fbb03b;
+                font-size: 38px;
                 
+
     
             }
             .textcard{

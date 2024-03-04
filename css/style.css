@@ -42,6 +42,13 @@
   color: #661691;
   font-weight: bold;
   font-family: "mukta-textos";
+  padding: 15px;
+}
+
+a:hover {
+  color: #fbb03b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 6%;
 }
 
 /*Colores*/
@@ -92,6 +99,10 @@ body {
 .estesi .card {
   flex-direction: row;
   justify-content: space-around;
+}
+.estesi .card:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 .estesi .card .textocard {
   display: flex;
