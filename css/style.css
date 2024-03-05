@@ -1,137 +1,18 @@
-@charset "UTF-8";
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: white;
-  margin: 0;
-}
+/* Error: expected ";".
+ *    ,
+ * 13 |     cursor: pointed;
+ *    |           ^
+ *    '
+ *   scss/partials/_footer.scss 13:11  @import
+ *   scss/style.scss 7:9               root stylesheet */
 
-.menu-toggle span {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #661691;
-  margin: 5px 0;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a    \2577 \a 13 \2502      cursor: pointed;\a    \2502            ^\a    \2575 \a   scss/partials/_footer.scss 13:11  @import\a   scss/style.scss 7:9               root stylesheet';
 }
-
-.menu-toggle {
-  display: none; /* Oculta el menú hamburguesa en pantallas más grandes */
-  cursor: pointer;
-}
-
-.logo img {
-  max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
-  position: relative;
-  left: 20px;
-}
-
-.menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.menu li {
-  margin-right: 20px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #661691;
-  font-weight: bold;
-  font-family: "mukta-textos";
-  padding: 15px;
-}
-
-a:hover {
-  color: #fbb03b;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  border-radius: 6%;
-}
-
-/*Colores*/
-/*Fuentes*/
-body {
-  background: url("../../img/fondo.png") center/cover no-repeat;
-  background-position: top;
-}
-
-/* FAMILIAS TIPOGRÁFICAS */
-/* Títulos */
-@font-face {
-  font-family: "kopi";
-  src: url(/font/kopi_senja_sans/Kopi-Senja-Sans.otf);
-  font-weight: normal;
-  font-style: normal;
-}
-/* Textos y párrafos */
-@font-face {
-  font-family: "mukta-textos";
-  src: url("../../font/mukta/Mukta-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "prequel";
-  src: url(/font/prequel/PrequelDemo-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
-}
-.estesi .card {
-  /*FONDO*/
-  background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco con opacidad 0.8 */
-  padding: 20px; /* Ajusta el relleno según tus necesidades */
-  border-radius: 10px; /* Ajusta el radio de borde según tus necesidades */
-  /* Otros estilos de la tarjeta */
-  /*TEXTOS*/
-  /*flexbox*/
-  display: flex;
-  justify-content: center;
-  /*tamaño*/
-  max-width: 80%;
-  margin-top: 60px;
-}
-
-.estesi {
-  display: flex;
-  justify-content: center;
-}
-.estesi .card {
-  flex-direction: row;
-  justify-content: space-around;
-}
-.estesi .card:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-.estesi .card .textocard {
-  display: flex;
-  text-align: center;
-  width: 500;
-  flex-direction: column;
-  margin-top: 10%;
-}
-.estesi .card .textocard .titcard {
-  display: flex;
-  margin-top: 60px;
-  font-family: "prequel";
-  font-weight: normal;
-  color: #fbb03b;
-  font-size: 38px;
-}
-.estesi .card .textocard .textcard {
-  display: flex;
-  text-align: start;
-  padding-right: 10%;
-  color: white;
-}
-.estesi .card .cardimg {
-  max-width: 25%;
-  padding: 20px;
-  display: flex;
-  align-items: end;
-  background-color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
