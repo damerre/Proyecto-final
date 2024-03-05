@@ -1,14 +1,19 @@
-.cinta{
-    background-color: white;
-    margin: 0;
-    display: flex;
-    justify-content:space-around;
-    
-    
-}
 
-.redes{
-    size: 20%;
-    padding: 20%
-    cursor: pointed;
+
+footer{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 3%;
+
+    .cinta{
+        cursor: pointer;
+        .redes img{
+            width: 5%;
+            padding: 10px;
+            
+            
+            
+        }
+    }
 }
