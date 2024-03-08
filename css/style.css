@@ -25,6 +25,7 @@
   max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
   position: relative;
   left: 20px;
+  margin: 5px;
 }
 
 .menu ul {
@@ -134,18 +135,74 @@ body {
   background-color: white;
 }
 
+.playlist {
+  display: flex;
+  justify-content: flex-end;
+  top: 80%;
+  padding: 20px;
+}
+
+.clientes {
+  display: flex;
+  justify-content: center;
+}
+.clientes .grilla {
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco con opacidad 0.8 */
+  padding: 20px; /* Ajusta el relleno según tus necesidades */
+  border-radius: 10px;
+  flex-direction: column;
+  max-width: 80%;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+.clientes .grilla .row1 {
+  display: flex;
+  flex-direction: row;
+}
+.clientes .grilla .row1 .col {
+  padding: 20%;
+}
+.clientes .grilla .row2 {
+  display: flex;
+  flex-direction: row;
+}
+.clientes .grilla .row2 .col {
+  padding: 20%;
+}
+
 footer {
   background-color: white;
   text-align: center;
   margin-bottom: 0;
   padding: 3%;
+  margin-top: 20%;
 }
 footer .cinta {
   cursor: pointer;
 }
 footer .cinta .redes img {
   width: 5%;
-  padding: 10px;
+  padding: 1%;
 }
+
+.redes img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 6%;
+}
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+  .estesi {
+    display: flex;
+  }
+  .estesi .card {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .navbar .menu-toggle {
+    display: flex; /* Oculta el menú hamburguesa en pantallas más grandes */
+  }
+}
+/*desktop*/
 
 /*# sourceMappingURL=style.css.map */

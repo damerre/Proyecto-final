@@ -56,3 +56,46 @@
     
 }
 
+.playlist{
+    display: flex;
+    justify-content:flex-end;
+    top: 80%;
+    padding: 20px;
+}
+
+.clientes{
+        display: flex;
+        justify-content: center;
+        
+
+        .grilla{
+            background-color: rgba(255, 255, 255, 0.20); /* Fondo blanco con opacidad 0.8 */
+            padding: 20px; /* Ajusta el relleno según tus necesidades */
+            border-radius: 10px;
+            flex-direction: column;
+            max-width: 80%;
+            margin-top: 60px;
+            justify-content: space-around;
+            
+           
+            
+            .row1{
+                display: flex;
+                flex-direction: row;
+                .col{
+                    padding: 20%;
+                }
+                
+        
+            }
+            .row2{
+                display: flex;
+                flex-direction: row;   
+                .col{
+                    padding: 20%;
+                }
+                 
+            }
+        }
+    
+}
