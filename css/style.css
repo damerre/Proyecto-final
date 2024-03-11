@@ -79,7 +79,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.estesi .card {
+.testimonios-section .testimonio, .estesi .card {
   /*FONDO*/
   background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco con opacidad 0.8 */
   padding: 20px; /* Ajusta el relleno según tus necesidades */
@@ -208,16 +208,12 @@ footer .cinta .redes img {
   display: flex;
   justify-content: center;
 }
-
-.testimonio {
+.testimonios-section .testimonio {
   width: 300px;
   margin: 0 20px; /* Espacio entre columnas */
   text-align: center;
-}
-
-.testimonio i {
-  font-size: 24px;
-  margin-bottom: 10px;
+  flex-wrap: wrap;
+  margin-top: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */
