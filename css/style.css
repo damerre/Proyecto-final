@@ -137,9 +137,10 @@ body {
 
 .playlist {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   top: 80%;
   padding: 20px;
+  margin-top: 20%;
 }
 
 .clientes {
@@ -214,6 +215,11 @@ footer .cinta .redes img {
   text-align: center;
   flex-wrap: wrap;
   margin-top: 15%;
+  font-family: "mukta-textos";
+  color: white;
+}
+.testimonios-section .testimonio .usericon {
+  margin: 8%;
 }
 
 /*# sourceMappingURL=style.css.map */
