@@ -56,6 +56,31 @@
          </div>
     </section>
 
+    <div class="mosaico">
+        <div class="grid-item"><img src="/img/socialpics/bee.jpg" alt="Imagen 1" class="fan1"></div>
+        <div class="grid-item"><img src="/img/socialpics/davinci.jpg" alt="Imagen 2"></div>
+        <div class="grid-item"><img src="/img/socialpics/dom.jpg" alt="Imagen 3"></div>
+        <div class="grid-item"><img src="/img/socialpics/hepa.jpg" alt="Imagen 4"></div>
+        <div class="grid-item"><img src="/img/socialpics/p1.jpg" alt="Imagen 5"></div>
+        <div class="grid-item"><img src="/img/socialpics/PASOS.jpg" alt="Imagen 6"></div>
+        <div class="grid-item"><img src="/img/socialpics/nami.jpg" alt="Imagen 7"></div>
+        <div class="grid-item"><img src="/img/socialpics/nav.jpg" alt="Imagen 8"></div>
+        <div class="grid-item"><img src="/img/socialpics/p2.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/Plataformas.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/copa.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/pronto1.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/aset.png" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/bbt.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/pronto2.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/enero.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/p5.jpg" alt="Imagen 9"></div>
+        <div class="grid-item"><img src="/img/socialpics/tasty.jpg" alt="Imagen 9"></div>
+    </div>
+
+    <div class="modal">
+        <img class="modal-content" id="img-modal" src="" alt="">
+      </div>
+
 
 
     
@@ -67,6 +92,32 @@
         <script>
             AOS.init();
           </script>
+        
+        <script>
+            // Obtener todas las imágenes en el grid
+            const images = document.querySelectorAll('.grid-item img');
+          
+            // Obtener el modal y la imagen del modal
+            const modal = document.querySelector('.modal');
+            const modalImg = document.getElementById('img-modal');
+          
+            // Agregar un event listener a cada imagen
+            images.forEach(image => {
+              image.addEventListener('click', () => {
+                // Mostrar el modal cuando se hace clic en la imagen
+                modal.style.display = 'block';
+                // Establecer la imagen del modal como la imagen clicada
+                modalImg.src = image.src;
+              });
+            });
+          
+            // Cerrar el modal cuando se hace clic fuera de la imagen
+            modal.addEventListener('click', () => {
+              modal.style.display = 'none';
+            });
+          </script>
+
+
     <footer>
         <div class="cinta">
   

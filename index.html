@@ -26,9 +26,14 @@
                 <img src="img/logo.png" alt="">
             </div>
             <div class="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+              <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="/pages/branding.html">BRANDING</a></li>
+                <li><a href="/pages/fanarts.html">FANARTS</a></li>
+                <li><a href="/pages/socialmedia.html">SOCIAL MEDIA</a></li>
+                <li><a href="/pages/craft.html">CRAFTS</a></li>
+                <li><a href="/pages/uxui.html">UX/UI</a></li>
+            </ul>
             </div>
             <nav class="menu">
                 <ul>
@@ -115,6 +120,30 @@
           </script>
         
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+        <script>
+          // Obtener elementos necesarios
+          const menuToggle = document.querySelector('.menu-toggle');
+          const menu = document.querySelector('.menu');
+
+          // Agregar un event listener al botón de menú
+          menuToggle.addEventListener('click', () => {
+          // Alternar la clase 'active' para mostrar u ocultar el menú
+          menu.classList.toggle('active');
+          });
+
+          // Obtener todos los enlaces del menú original
+          const menuLinks = document.querySelectorAll('.menu a');
+
+          // Agregar un event listener a cada enlace del menú original
+          menuLinks.forEach(link => {
+          link.addEventListener('click', () => {
+           // Ocultar el menú al hacer clic en un enlace
+           menu.classList.remove('active');
+          });
+        });
+
+        </script>
 
     <!-- Musica -->
     <div class="playlist" data-aos="flip-up">

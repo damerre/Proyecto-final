@@ -12,11 +12,30 @@
 
     .navbar{
         .menu-toggle {
-            display: flex; /* Oculta el menú hamburguesa en pantallas más grandes */
-            
-        }
+            display: block; /* Muestra el botón de menú en dispositivos móviles */
+            margin: 30px;
+          }
+        .menu {
+            display: none; /* Oculta el menú en dispositivos móviles */
+          }
+        .menu.active {
+            display: block; /* Muestra el menú cuando tiene la clase 'active' */
+          }  
     }
+
+    .mosaico{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    
+
+    
 }
+
+
+
 
 /*desktop*/
 
