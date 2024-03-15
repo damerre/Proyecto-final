@@ -270,6 +270,10 @@ footer .cinta .redes img {
     flex-direction: column;
     justify-content: space-around;
   }
+  .testimonios-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /*desktop*/
 .testimonios-section {
