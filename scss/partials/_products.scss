@@ -154,5 +154,26 @@
   }
   
 
+  #btnBackToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Ajusta la posición del botón a la derecha */
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #btnBackToTop:hover {
+    background-color: #0056b3;
+  }
+  
+
   
   
