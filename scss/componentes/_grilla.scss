@@ -1,0 +1,66 @@
+// Variables
+$grid-gap: 10px;
+$image-size-vertical: 400px; // Tamaño de la imagen vertical
+$image-size-square: 200px;   // Tamaño de las imágenes cuadradas
+$max-grid-width: 1000px;
+$max-grid-height: 600px;
+
+
+
+.grillab{
+    max-width: $max-grid-width;
+    max-height: $max-grid-height;
+    overflow: auto;
+    margin: 0 auto;
+
+
+
+    // Estilos para la grilla
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr)); // Dos columnas
+        grid-gap: $grid-gap;
+        
+        .grid-item {
+          position: relative;
+          width: 100%; // Ajuste de ancho al 100%
+          
+          // Primer casilla (imagen vertical)
+          &:first-child {
+            img {
+              width: 100%;
+              height: $image-size-vertical; // Altura más alta
+              object-fit: cover;
+            }
+          }
+          
+          // Segunda casilla (carrusel)
+          &:nth-child(2) {
+            .carousel {
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+          
+          // Tercera, cuarta, quinta y sexta casilla (cuadradas)
+          &:nth-child(n+3):nth-child(-n+6) {
+            img {
+              width: 100%;
+              height: $image-size-square;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+  }
+
+
+
+
+// GRILLA DE IMAGENES Y CARRUSEL, PERO NO FUNCIONA POR QUE ME FALTA DEFINIR BIEN EL TAMAÑO GENERAL DE LA GRILLA, Y ADEMAS CUADRADOS QUE VAN AL LADO DE LA IMAGEN VERTICAL NO FIGURAN.
+
+  
+  

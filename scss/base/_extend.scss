@@ -20,3 +20,21 @@
 }
 
 
+%portfolio{
+  
+  padding: 20px; /* Ajusta el relleno según tus necesidades */
+  border-radius: 10px; /* Ajusta el radio de borde según tus necesidades */
+  /* Otros estilos de la tarjeta */
+
+      /*TEXTOS*/
+ 
+   /*flexbox*/
+   display: flex;
+   justify-content: center;
+  
+  
+  /*tamaño*/
+  max-width: 90%;
+  margin-top: 60px;
+
+}

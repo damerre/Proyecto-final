@@ -94,6 +94,19 @@ body {
   margin-top: 60px;
 }
 
+.portfolio5 .card, .portfolio4 .card, .portfolio3 .card, .portfolio2 .card, .portfolio1 .card {
+  padding: 20px; /* Ajusta el relleno según tus necesidades */
+  border-radius: 10px; /* Ajusta el radio de borde según tus necesidades */
+  /* Otros estilos de la tarjeta */
+  /*TEXTOS*/
+  /*flexbox*/
+  display: flex;
+  justify-content: center;
+  /*tamaño*/
+  max-width: 90%;
+  margin-top: 60px;
+}
+
 .estesi {
   display: flex;
   justify-content: center;
@@ -291,6 +304,259 @@ footer .cinta .redes img {
 }
 .testimonios-section .testimonio .usericon {
   margin: 8%;
+}
+
+.grillab {
+  max-width: 1000px;
+  max-height: 600px;
+  overflow: auto;
+  margin: 0 auto;
+}
+.grillab .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 10px;
+}
+.grillab .grid-container .grid-item {
+  position: relative;
+  width: 100%;
+}
+.grillab .grid-container .grid-item:first-child img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.grillab .grid-container .grid-item:nth-child(2) .carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grillab .grid-container .grid-item:nth-child(n+3):nth-child(-n+6) img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio1 {
+  display: flex;
+  justify-content: center;
+}
+.portfolio1 .card {
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(/img/brandpics/fondollamas.jpg);
+}
+.portfolio1 .card .textocard {
+  display: flex;
+  text-align: center;
+  width: 500;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.portfolio1 .card .textocard .titcard {
+  display: flex;
+  margin-top: 60px;
+  font-family: "prequel";
+  font-weight: normal;
+  color: #fbb03b;
+  font-size: 38px;
+}
+.portfolio1 .card .textocard .textcard {
+  display: flex;
+  text-align: start;
+  padding-right: 10%;
+  color: white;
+}
+.portfolio1 .card .cardimg {
+  max-width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.portfolio1 .card .cardimg .imgportada {
+  max-width: 60%;
+  height: auto;
+}
+
+.portfolio2 {
+  display: flex;
+  justify-content: center;
+}
+.portfolio2 .card {
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(/img/brandpics/fondodental.jpg);
+  background-size: 100%;
+}
+.portfolio2 .card .textocard {
+  display: flex;
+  text-align: center;
+  width: 500;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.portfolio2 .card .textocard .titcard {
+  display: flex;
+  margin-top: 60px;
+  font-family: "prequel";
+  font-weight: normal;
+  color: #fbb03b;
+  font-size: 38px;
+}
+.portfolio2 .card .textocard .textcard {
+  display: flex;
+  text-align: start;
+  padding-right: 10%;
+  color: black;
+}
+.portfolio2 .card .cardimg {
+  max-width: 100%;
+  padding: 3px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.portfolio2 .card .cardimg .imgportada {
+  max-width: 60%;
+  height: auto;
+}
+
+.portfolio3 {
+  display: flex;
+  justify-content: center;
+}
+.portfolio3 .card {
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(/img/brandpics/sushiback.jpg);
+  background-size: 100%;
+  background-position: 0%;
+}
+.portfolio3 .card .textocard {
+  display: flex;
+  text-align: center;
+  width: 500;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.portfolio3 .card .textocard .titcard {
+  display: flex;
+  margin-top: 60px;
+  font-family: "prequel";
+  font-weight: normal;
+  color: #fbb03b;
+  font-size: 38px;
+}
+.portfolio3 .card .textocard .textcard {
+  display: flex;
+  text-align: start;
+  padding-right: 10%;
+  color: white;
+}
+.portfolio3 .card .cardimg {
+  max-width: 100%;
+  padding: 3px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.portfolio3 .card .cardimg .imgportada {
+  max-width: 60%;
+  height: auto;
+}
+
+.portfolio4 {
+  display: flex;
+  justify-content: center;
+}
+.portfolio4 .card {
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(/img/brandpics/fondooenac.jpg);
+  background-size: 100%;
+}
+.portfolio4 .card .textocard {
+  display: flex;
+  text-align: center;
+  width: 500;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.portfolio4 .card .textocard .titcard {
+  display: flex;
+  margin-top: 60px;
+  font-family: "prequel";
+  font-weight: normal;
+  color: #fbb03b;
+  font-size: 38px;
+}
+.portfolio4 .card .textocard .textcard {
+  display: flex;
+  text-align: start;
+  padding-right: 10%;
+  color: white;
+}
+.portfolio4 .card .cardimg {
+  max-width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.portfolio4 .card .cardimg .imgportada {
+  max-width: 60%;
+  height: auto;
+}
+
+.portfolio5 {
+  display: flex;
+  justify-content: center;
+}
+.portfolio5 .card {
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url(/img/brandpics/fondmau.jpg);
+  background-size: 100%;
+}
+.portfolio5 .card .textocard {
+  display: flex;
+  text-align: center;
+  width: 500;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.portfolio5 .card .textocard .titcard {
+  display: flex;
+  margin-top: 60px;
+  font-family: "prequel";
+  font-weight: normal;
+  color: #fbb03b;
+  font-size: 38px;
+}
+.portfolio5 .card .textocard .textcard {
+  display: flex;
+  text-align: start;
+  padding-right: 10%;
+  color: white;
+}
+.portfolio5 .card .cardimg {
+  max-width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.portfolio5 .card .cardimg .imgportada {
+  max-width: 60%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

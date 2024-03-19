@@ -1,0 +1,300 @@
+.portfolio1{
+    display: flex;
+    justify-content: center;
+   
+    .card{
+        flex-direction: row;
+        justify-content: space-around;
+        @extend %portfolio;
+        background-image: url(/img/brandpics/fondollamas.jpg);
+
+        .textocard{
+            display: flex;
+            text-align:center;
+            width: 500;
+            flex-direction: column;
+            margin-top: 15%;
+            margin-left: 10%;
+
+            .titcard{
+                display: flex;
+                margin-top: 60px;
+                font-family: 'prequel';
+                font-weight: normal;
+                color: #fbb03b;
+                font-size: 38px;
+                
+
+    
+            }
+            .textcard{
+                display: flex;
+                text-align: start;
+                padding-right: 10%;
+                color: white;
+                
+            }
+    
+        }
+
+        .cardimg{
+            max-width: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            .imgportada{
+                max-width: 60%;
+                height: auto;
+                
+            
+            }
+            
+        }
+        
+    }
+}
+
+.portfolio2{
+    display: flex;
+    justify-content: center;
+    
+   
+    .card{
+        flex-direction: row;
+        justify-content: space-around;
+        @extend %portfolio;
+        background-image: url(/img/brandpics/fondodental.jpg);
+        background-size: 100%;
+
+        .textocard{
+            display: flex;
+            text-align:center;
+            width: 500;
+            flex-direction: column;
+            margin-top: 15%;
+            margin-left: 10%;
+
+            .titcard{
+                display: flex;
+                margin-top: 60px;
+                font-family: 'prequel';
+                font-weight: normal;
+                color: #fbb03b;
+                font-size: 38px;
+                
+
+    
+            }
+            .textcard{
+                display: flex;
+                text-align: start;
+                padding-right: 10%;
+                color: black;
+                
+            }
+    
+        }
+
+        .cardimg{
+            max-width: 100%;
+            padding: 3px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            .imgportada{
+                max-width: 60%;
+                height: auto;
+                
+            
+            }
+            
+        }
+        
+    }
+}
+
+.portfolio3{
+    display: flex;
+    justify-content: center;
+    
+   
+    .card{
+        flex-direction: row;
+        justify-content: space-around;
+        @extend %portfolio;
+        background-image: url(/img/brandpics/sushiback.jpg);
+        background-size: 100%;
+        background-position: 0%;
+
+        .textocard{
+            display: flex;
+            text-align:center;
+            width: 500;
+            flex-direction: column;
+            margin-top: 15%;
+            margin-left: 10%;
+
+            .titcard{
+                display: flex;
+                margin-top: 60px;
+                font-family: 'prequel';
+                font-weight: normal;
+                color: #fbb03b;
+                font-size: 38px;
+                
+
+    
+            }
+            .textcard{
+                display: flex;
+                text-align: start;
+                padding-right: 10%;
+                color: white;
+                
+            }
+    
+        }
+
+        .cardimg{
+            max-width: 100%;
+            padding: 3px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            .imgportada{
+                max-width: 60%;
+                height: auto;
+                
+            
+            }
+            
+        }
+        
+    }
+}
+
+.portfolio4{
+    display: flex;
+    justify-content: center;
+    
+   
+    .card{
+        flex-direction: row;
+        justify-content: space-around;
+        @extend %portfolio;
+        background-image: url(/img/brandpics/fondooenac.jpg);
+        background-size: 100%;
+
+        .textocard{
+            display: flex;
+            text-align:center;
+            width: 500;
+            flex-direction: column;
+            margin-top: 15%;
+            margin-left: 10%;
+
+            .titcard{
+                display: flex;
+                margin-top: 60px;
+                font-family: 'prequel';
+                font-weight: normal;
+                color: #fbb03b;
+                font-size: 38px;
+                
+
+    
+            }
+            .textcard{
+                display: flex;
+                text-align: start;
+                padding-right: 10%;
+                color: white;
+                
+            }
+    
+        }
+
+        .cardimg{
+            max-width: 100%;
+            padding: 10px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            margin-bottom: 5%;
+
+            .imgportada{
+                max-width: 60%;
+                height: auto;
+                
+            
+            }
+            
+        }
+        
+    }
+}
+
+.portfolio5{
+    display: flex;
+    justify-content: center;
+    
+   
+    .card{
+        flex-direction: row;
+        justify-content: space-around;
+        @extend %portfolio;
+        background-image: url(/img/brandpics/fondmau.jpg);
+        background-size: 100%;
+
+        .textocard{
+            display: flex;
+            text-align:center;
+            width: 500;
+            flex-direction: column;
+            margin-top: 15%;
+            margin-left: 10%;
+
+            .titcard{
+                display: flex;
+                margin-top: 60px;
+                font-family: 'prequel';
+                font-weight: normal;
+                color: #fbb03b;
+                font-size: 38px;
+                
+
+    
+            }
+            .textcard{
+                display: flex;
+                text-align: start;
+                padding-right: 10%;
+                color: white;
+                
+            }
+    
+        }
+
+        .cardimg{
+            max-width: 100%;
+            padding: 10px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            margin-bottom: 5%;
+
+            .imgportada{
+                max-width: 60%;
+                height: auto;
+                
+            
+            }
+            
+        }
+        
+    }
+}
